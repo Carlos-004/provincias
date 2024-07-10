@@ -15,13 +15,13 @@
 !src/
 !public/
 
-# Ignores los archivos de la carpeta node_modules
+# Ignora los archivos de la carpeta node_modules
 node_modules/
 
-# Ignores los archivos de la carpeta build (si es aplicable)
+# Ignora los archivos de la carpeta build (si es aplicable)
 build/
 
-# Ignores los archivos de la carpeta dist (si es aplicable)
+# Ignora los archivos de la carpeta dist (si es aplicable)
 dist/
 
 # Ignora archivos de logs
