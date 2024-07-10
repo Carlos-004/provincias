@@ -1,0 +1,31 @@
+# Ignorar todo
+*
+
+# Pero no ignores el archivo .gitignore
+!.gitignore
+
+# No ignores los archivos de configuración del proyecto
+!.env
+!package.json
+!package-lock.json
+!.eslintrc.json
+!README.md
+
+# No ignores las carpetas específicas necesarias para el proyecto
+!src/
+!public/
+
+# Ignores los archivos de la carpeta node_modules
+node_modules/
+
+# Ignores los archivos de la carpeta build (si es aplicable)
+build/
+
+# Ignores los archivos de la carpeta dist (si es aplicable)
+dist/
+
+# Ignora archivos de logs
+*.log
+
+# Ignora el directorio de la base de datos MongoDB
+mongodb/
